@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 import './Header.css'
 import {FaTimes, FaBeer} from 'react-icons/fa'
 import {FiAlignJustify} from 'react-icons/fi'
+import {Link} from 'react-router-dom'
+
 
 const Header = () => {
     const [toggle, setToggle] = useState(true)
@@ -13,9 +15,9 @@ const Header = () => {
             <div>LOGO</div>
 
             <div className='Nav_Contain'>
-                <a>HOME</a>
-                <a>ABOUT</a>
-                <a>CONTACT</a>
+                <Link to='/' className='Links'>HOME</Link>
+                <Link to='/product' className='Links'>PRODUCTS</Link>
+                <Link to='/contact' className='Links'>CONTACT</Link>
             </div>
 
             <div className='Burger'>
