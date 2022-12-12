@@ -40,12 +40,12 @@
 
 .ProductName{
     width: 100%;
-    padding: 3px;
+    margin-left: 10px;
 }
 
 .Desc_Contain{
     width: 100%;
-    padding: 3px;
+    margin-left: 10px;
 }
 
 .Done_Prod{
